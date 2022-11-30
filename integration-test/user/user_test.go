@@ -13,7 +13,7 @@ import (
 	"gorm.io/gorm"
 )
 
-func TestGetUserByEmail(t *testing.T) {
+func TestLogin(t *testing.T) {
 	//Arrange
 	req := user.LoginRequest{
 		Email: "whTH@gmail.com",
